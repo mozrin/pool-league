@@ -1,0 +1,5 @@
+.database/*
+!.database/mariadb/
+.database/mariadb/*
+!.database/postgres/
+.database/postgres/*
