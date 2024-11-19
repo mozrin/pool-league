@@ -1,4 +1,7 @@
 Dynamic Makefile System
+
+source ~/.bashrc  # or `source ~/.zshrc` if you're using Zsh
+
 This project uses a dynamic Makefile system to organize and automate various tasks. The Makefile system is structured to be maintainable and modular, with each task defined in its own separate .mk file located in the makefiles directory.
 
 Overview
