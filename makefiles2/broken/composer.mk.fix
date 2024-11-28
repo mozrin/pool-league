@@ -1,4 +1,0 @@
-# old ps1 - function composer! { docker compose run --rm composer $args }
-
-composer: # Run an composer command on the docker container
-	@docker compose run --rm composer $(args)
