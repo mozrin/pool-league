@@ -9,9 +9,27 @@ use Illuminate\Support\Facades\Validator;
 class UserController extends Controller
 {
     // Display a listing of users
+
     public function index()
     {
+        return "you may not list all users with this method";
+    }
+
+    // List all Users
+
+    public function indexUsers()
+    {
         $users = User::all();
+
+        return response()->json($users);
+    }
+
+    // List all Users with their Profiles
+
+    public function indexUsersWithProfiles()
+    {
+        $users = User::with('profile')->get();
+
         return response()->json($users);
     }
 

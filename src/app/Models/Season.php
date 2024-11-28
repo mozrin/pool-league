@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Things extends Model
+class Season extends Model
 {
     //
 }
